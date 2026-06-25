@@ -1,0 +1,8 @@
+[project]
+name = "calc"
+version = "0.1.0"
+description = "A tiny arithmetic expression evaluator (literate-repo demo input)."
+requires-python = ">=3.9"
+
+[project.scripts]
+calc = "calc.cli:main"
