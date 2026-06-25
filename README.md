@@ -20,17 +20,6 @@ the order a *human mind* needs. This skill performs that re-arrangement — a "w
 already exists: it recovers a conceptual reading order, decomposes the system top-down into small
 **named fragments**, and presents prose as the main text with real, attributed code woven in.
 
-## See it first: the demo
-
-`demo/` is a complete, runnable MVP. It reads one small real repo (`demo/sample_repo` — a ~100-line
-arithmetic evaluator) and produces a four-chapter literate reading in `demo/calc-literate/` that you
-can open and execute. Start at `demo/calc-literate/00_overview.ipynb`. See `demo/README.md` for a
-tour of what it demonstrates.
-
-```bash
-cd demo && python3 build_demo.py        # regenerate the reading from the sample repo
-```
-
 ## What it produces
 
 A folder of notebooks for the target repo:
@@ -112,6 +101,17 @@ Install the packaged `.skill`, then point it at a repo:
 
 For a large repo a literate reading is *selective*: it covers the spine and the load-bearing
 subsystems deeply and summarizes the periphery, telling you what was covered and what was deferred.
+
+## See it first: the demo
+
+`demo/` is a complete, runnable MVP. It reads one small real repo (`demo/sample_repo` — a ~100-line
+arithmetic evaluator) and produces a four-chapter literate reading in `demo/calc-literate/` that you
+can open and execute. Start at `demo/calc-literate/00_overview.ipynb`. See `demo/README.md` for a
+tour of what it demonstrates.
+
+```bash
+cd demo && python3 build_demo.py        # regenerate the reading from the sample repo
+```
 
 ## Credits
 
